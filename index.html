@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+		<link rel="stylesheet" href="css/headerNfooter.css">
+		<link rel="stylesheet" href="css/<?php echo($styleSheet); ?>">
+		<link rel="stylesheet" href="css/mymediaQuery.css">
+
+</head>
+<body>
+<div class="col-12 headrow">
+		<!-- image with class attribute toggle-nav is temporarily invisible on the page -->
+		<img src="./images/navbarImg.png" class="toggle-nav">
+		<div class="col-12 logo">
+			<img src="./images/bblogo.png" class="imglogo">
+			<h1><span>C</span>rypto-coinery</h1>
+		</div>
+		<div class="col-12 nav-inline">
+			<ul class="col-12 menu">
+				<li class="col-2"><a href="./index.php">Home</a></li>
+				<li class="col-4"><a href="./services.php">Learn BTC Trading</a></li>
+				<li class="col-3"><a href="./contact.php">Need Help?</a></li>
+				<li class="col-3"><a href="./register.php">Get Started</a></li>
+			</ul>
+		</div>
+		<div class="col-12 imgSlide">
+			<img src="./images/bbinv30mins.png">
+		</div>
+		<div class="col-4 intro">
+			<h3>Welcome To Crypto-coinery</h3>
+			<p>Inspired by Bitbond Peer-to-peer lending platform.</p>
+		</div>
+		<div class="col-6 intro">
+			<h3>Why Choose Bitbond?</h3>
+			<p>Bitbond is the first global lending platform for small bisiness loans. We leverage blockchain technology to connect credit worthy borrowers with individual and institutional investors.</p>
+		</div>
+	</div>
+ 
+<!-- dropdown menu on mobile page -->  
+	<div class="col-12 nav-block">
+		<ul class="col-12 drop-menu">
+			<img src="images/closeNav.png" class="close-nav">
+			<li class="col-12"><a href="./index.php">Home</a></li>
+			<li class="col-12"><a href="./services.php">Learn BTC Trading</a></li>
+			<li class="col-12"><a href="./contact.php">Need Help?</a></li>
+			<li class="col-12"><a href="./register.php">Join Now and Start Earning</a></li>
+		</ul>	
+	</div>
+<div id="main" class="col-12">
+	<section class="col-12 indexCmp-main">
+		<section class="col-6 index-main">
+			<div class="col-12">
+				<h3><span class="numList"> FIVERR:</span></h3>
+				<img src="images/bbbabe-invest.png">
+			</div>
+			<p class="col-12">FIVERR: Fiverr offers similar job opportunities as most general freelance job web sites; however, it works differently from rest of them. The authenticity of this platform and payment system is its’ main selling point. As a freelance registered on Fiverr, you have to create “gigs” based on your skillsets/expertise. In brief, you tell the client what you will do for them, budget for the job, time frame to complete their job then the clients decide whether they are interested in paying for your services. Fiverr Projects are priced minimum $5 (hence the name).
+			</p>
+		</section>
+		
+		<aside class="col-5">
+			<header><h2>SideBar Header</h2></header>
+			<p>Fiverr offers similar job opportunities as most general freelance job web sites; however, it works differently from rest of them. The authenticity of this platform and payment system is its’ main</p>
+		</aside>
+	</section>
+</div>
+	<div class="col-12 main">
+		<h2>Learning Resources</h2>
+		<div class="col-10 main-content">
+		
+			<div class="col-3 content">
+				<img src="images/dummyimg.png" class="col-12">
+				<section class="col-12">
+					<a href="">Udemy</a>
+				</section>
+			</div>
+			<div class="col-3 content">
+				<img src="images/dummyimg.png" class="col-12">
+				<section class="col-12">
+					<a href="">Coursera</a>
+				</section>
+			</div>
+			<div class="col-3 content">
+				<img src="images/dummyimg.png" class="col-12">
+				<section class="col-12">
+					<a href="">Lynda.com</a>
+				</section>
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+     	<div class="col-12">
+			<form action="signin.php" method="POST">
+				<input type="email" name="email" maxlength="50" placeholder="Enter Your Email" required>
+				<input type="password" name="pwd" maxlength="40" placeholder="Enter Your Password" required>
+				<input type="hidden" name="sent" value="yes">
+				<input type="submit" name="loginsubmit" value="Sign In">	
+				<div class="col-12"><a href="register.php">Sign Up</a> | <a href="passreset.php">Forgot Your Password?</a></div>
+			</form>
+	</div>
+	<li><a href="index.php">Click to go Back</a></li>
+
+</div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/cs_controller.js"></script>
+</body>
+</html>
